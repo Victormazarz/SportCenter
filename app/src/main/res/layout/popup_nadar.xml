@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:background="@color/AzulOscuro"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/Blanco"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/x"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/poptitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Blanco"
+            android:text="TITULO DE LA ACTIVIDAD"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:orientation="vertical">
+       <ImageView
+           android:id="@+id/popimagen"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:src="@drawable/icon_gym"
+           android:layout_gravity="center"
+           android:background="@drawable/a"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/popcalorias"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Blanco"
+            android:text="Calorias: 600"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/poptiempo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Blanco"
+            android:text="Tiempo de ejercicio: 2:30h"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/popdistancia"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Blanco"
+            android:text="Distancia: 15klm"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/popbrazada"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Blanco"
+            android:text="Brazadas: 400"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/popambiente"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Blanco"
+            android:text="Ambiente: Gimnasio"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/popfecha"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Blanco"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Fecha de la actividad: 20/04/2019"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:background="@color/Azul"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/popdescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Blanco"
+            android:textSize="16dp"
+            android:text="Cena con hamburguesa y nachos"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

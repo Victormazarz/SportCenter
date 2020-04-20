@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/recientes_amigo_imagen"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_001_man_user"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/recientes_amigo_kilometros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27.70 Km"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/recientes_amigo_tiempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01:44:28"
+                android:textSize="15dp"
+                android:layout_gravity="left"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="110dp">
+
+            <TextView
+                android:id="@+id/recientes_amigo_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ambiente: Sendero"
+                android:textSize="18dp"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/recientes_amigo_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15/02/2020"
+                android:textSize="15dp"
+                android:layout_gravity="right"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

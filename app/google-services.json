@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "57918429517",
+    "firebase_url": "https://sportcenter-3b2ef.firebaseio.com",
+    "project_id": "sportcenter-3b2ef",
+    "storage_bucket": "sportcenter-3b2ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57918429517:android:b5a513629f151c706a3f04",
+        "android_client_info": {
+          "package_name": "com.example.sportcenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57918429517-gfd0p7n1f8id8tpcfjtd24i08ar8et6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvkwAxW_zzOiR4J0oyTnIoMCyW0eqX0sQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57918429517-gfd0p7n1f8id8tpcfjtd24i08ar8et6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#016ac8</color>
+    <color name="colorPrimaryDark">#05549a</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Azul">#039ed3</color>
+    <color name="AzulClaro">#00f0ff</color>
+    <color name="AzulOscuro">#016ac8</color>
+    <color name="AzulOscuro2">#142850</color>
+    <color name="Blanco">#ffffff</color>
+    <color name="Blanco2">#f3f4f5</color>
+    <color name="Blanco3">#f3f2f2</color>
+    <color name="Negro">#000000</color>
+    <color name="Negro2">#353434</color>
+    <color name="Negro3">#4d4c4c</color>
+    <color name="Gris">#dfe3e7</color>
+    <color name="Gris2">#1B191B</color>
+
+    <color name="PaletaAzul1">#142850</color>
+    <color name="PaletaAzul2">#27496d</color>
+    <color name="PaletaAzul3">#0c7b93</color>
+    <color name="PaletaAzul4">#00a8cc</color>
+
+    <color name="moradoOscuro">#333b58</color>
+    <color name="moradoClaro">#505d8c</color>
+    <color name="moradoClaro2">#7d8ab5</color>
+
+    <color name="ColorLetra">#016ac8</color>
+
+
+    <color name="CronoOscuro">#0d1230</color>
+    <color name="CronoMedio">#020d52</color>
+    <color name="CronoClaro">#09a3e1</color>
+
+</resources>

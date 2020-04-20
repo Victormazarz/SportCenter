@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sportcenter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_trophy"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_trophy"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Clases.Cronometro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Clases.Mostrar_actividades"
+            android:label="@string/title_activity_mostrar_actividades"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Clases.Registro_Datos" />
+        <activity
+            android:name=".Clases.MultiActividad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Clases.Perfil" />
+        <activity
+            android:name=".Clases.Registrarse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Clases.Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Clases.Registrar_Opcion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Clases.Registrar_Actividad" />
+        <activity
+            android:name=".Clases.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+</manifest>
